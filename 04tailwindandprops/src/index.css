@@ -1,0 +1,8 @@
+/* inject tailwind css */
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* inject tailwind css */
+

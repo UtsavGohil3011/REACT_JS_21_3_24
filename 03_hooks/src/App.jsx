@@ -7,6 +7,10 @@ function App() {
 
   let addValue = function() {
     if (counter < 10 ) {
+      //this is not working this is modify only one time 
+    setCounter(counter + 1); 
+    setCounter(counter + 1); 
+    setCounter(counter + 1); 
     setCounter(counter + 1); 
     } 
   };
@@ -14,7 +18,11 @@ function App() {
 
   let removeValue = function() {
     if (counter > 0) {
-      setCounter(counter - 1);
+      //this is right method for interview to decrease a value -4
+      setCounter(preCounter => preCounter - 1)
+      setCounter(preCounter => preCounter - 1)
+      setCounter(preCounter => preCounter - 1)
+      setCounter(preCounter => preCounter - 1)
     } 
   };
 
