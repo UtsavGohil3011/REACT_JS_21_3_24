@@ -1,0 +1,45 @@
+.bd{
+  background-color:#212121;
+  height: 100vh;
+}
+
+.rpg{
+  /* background-color:white; */
+  color: aliceblue;
+  display: flex;
+  justify-content: center;
+  padding: 3rem;
+}
+
+.input_field{
+  /* margin: auto; */
+  display: flex;
+  justify-content: center;
+}
+.btn_copy{
+  /* background-color: wheat; */
+  /* color: aliceblue; */
+  padding: 4px;
+  padding-left: 20px;
+  padding-right: 20px;
+  border-radius: 7px;
+  padding-top: 7px;
+  padding-bottom: 7px;
+  margin-left: 10px;
+}
+
+.btn_copy:hover{
+  background-color: #212121;
+  color: aliceblue;
+  padding: 7px;
+  padding-left: 40px;
+  padding-right: 40px;
+}
+
+.range_field{
+
+  display: flex;
+  justify-content: center;
+  margin-top: 40px;
+
+}
